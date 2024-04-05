@@ -1,12 +1,10 @@
-import { Route, Routes } from "react-router-dom";
-
+import { ListContainer } from "./components/ListcContainer";
+import "./styles/style.scss";
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        
-      </Routes>
-    </div>
+    <main>
+      <ListContainer />
+    </main>
   );
 }
 
